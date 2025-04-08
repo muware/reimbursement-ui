@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.react-datepicker-popper {
+  z-index: 1055 !important; /* Bootstrap modal uses 1050, so 1055 keeps it on top */
+}
